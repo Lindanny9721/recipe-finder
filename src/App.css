@@ -1,0 +1,73 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* additions here*/
+  height: 100vh;
+}
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  background-color: #fff;
+  z-index: 1;
+}
+/* For the Searchbar */
+li, h3 {
+  /* list-style: none;
+  border: none;
+  display:inline-block;
+  position: relative; */
+  text-align: left;
+}
+.search-container {
+  height: 100vh;
+  width:100%;
+}
+.recipe-card {
+  border: 1px solid rgba(153, 153, 153, 0.497);
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin: 0px 5px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  display:inline-block;
+}
+
+.recipe-image img {
+  max-width: 100%;
+}
+.stats {
+  text-align: center;
+  text-justify: inter-word;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+/* End for the Searchbar */
+/* Start for Recipe */
+.recipe-description {
+  margin-left:13.8%;
+  height: 100vh;
+  overflow: scroll;
+}
+/* End for Recipe */
+/* Start for Favorites */
+.favorites {
+  height:100vh;
+}
