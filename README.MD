@@ -2,7 +2,7 @@
 
 Submitted by: **Daniel Lin**
 
-This web app: **insert des**
+This web app: **Come look for a recipe with the any leftover foods you have!**
 
 Time spent: **8** hours spent in total
 
